@@ -25,6 +25,8 @@
 		B021B2C528094DEC00A452A8 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B021B2B728094DEC00A452A8 /* Rubik-BoldItalic.ttf */; };
 		B021B2C628094DEC00A452A8 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B021B2B828094DEC00A452A8 /* Rubik-LightItalic.ttf */; };
 		B021B2C728094DEC00A452A8 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B021B2B928094DEC00A452A8 /* Rubik-Medium.ttf */; };
+		B021B2CD280AD45C00A452A8 /* IntroScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B021B2CC280AD45C00A452A8 /* IntroScreenView.swift */; };
+		B021B2CF280AD52300A452A8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B021B2CE280AD52300A452A8 /* IntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		B021B2B828094DEC00A452A8 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		B021B2B928094DEC00A452A8 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		B021B2C9280951BE00A452A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B021B2CC280AD45C00A452A8 /* IntroScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenView.swift; sourceTree = "<group>"; };
+		B021B2CE280AD52300A452A8 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				B021B29D28094C7600A452A8 /* WordsFactoryApp.swift */,
+				B021B2CC280AD45C00A452A8 /* IntroScreenView.swift */,
+				B021B2CE280AD52300A452A8 /* IntroView.swift */,
 				B021B29F28094C7600A452A8 /* ContentView.swift */,
 				B021B2C82809513B00A452A8 /* Fonts */,
 				B021B2A128094C7700A452A8 /* Assets.xcassets */,
@@ -205,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B021B2CD280AD45C00A452A8 /* IntroScreenView.swift in Sources */,
+				B021B2CF280AD52300A452A8 /* IntroView.swift in Sources */,
 				B021B2A028094C7600A452A8 /* ContentView.swift in Sources */,
 				B021B29E28094C7600A452A8 /* WordsFactoryApp.swift in Sources */,
 			);
